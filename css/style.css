@@ -1,0 +1,99 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* url(../넣어야 이미지 경로 연결됨 */
+.headline{
+    width: 100%;
+    height: 700px;
+    background:url(../img/shoes.jpg) no-repeat bottom;
+    background-size: cover;
+}
+/* .inner{
+    width: 500px;
+    height: 1500px;
+    background-color: bisque;
+    margin: auto;
+} */
+/* header*/
+.header{
+    position: relative;
+}
+/* 상단 */
+.headline h1{
+    /* background-color: antiquewhite; */
+    font: bold 50px "arial";
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+}
+.headline p{
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.buy_bt{
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(139, 19, 79);
+    font: bold 20px;
+    color: #fff;
+    
+}
+/* 하단 */
+.content{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content1{
+    width: 500px;
+    height: 180px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: auto;
+    margin-top: 80px;
+}
+.content1 h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.content1 p{
+    text-align: center;
+}
+.content2{
+    width: 500px;
+    height: 180px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+.content2 h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.content2 p{
+    text-align: center;
+}
+/* main */
+/* 개인정보 */
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(139, 19, 79);
+    margin-top: 200px;
+}
+#sginUp{
+    width: 700px;
+    height: 400px;
+    background-color: #fff;
+}
